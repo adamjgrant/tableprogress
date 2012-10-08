@@ -1,0 +1,11 @@
+tr.progress {
+   height: 0;
+}
+tr.progress td.bar {
+   opacity: 0;
+   margin-bottom: -100%;
+   transition: opacity .15s ease-in-out;
+   -webkit-transition: opacity .15s ease-in-out;
+   -moz-transition: opacity .15s ease-in-out;
+}
+tr.progress td.bar:hover { opacity: 1; }
