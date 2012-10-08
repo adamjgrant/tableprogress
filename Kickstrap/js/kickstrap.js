@@ -208,7 +208,8 @@ function setupKickstrap() {
      $('#appList').css('content') == 'on') {
 		contentHack.selectorName == 'ie8';
 		if ($('#appList').css('ie8') == undefined ||
-		$('#appList').css('ie8') == '') {
+		$('#appList').css('ie8') == '' ||
+      $('#appList').css('ie8') == 'on') {
 		  var writeScripts = '';
 		  contentHack.hackMode = 'loop'; // last resort
 			for(i = 0; i < document.styleSheets.length; i++) {
