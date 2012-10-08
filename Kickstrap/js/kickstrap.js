@@ -204,7 +204,8 @@ function setupKickstrap() {
 	  return rv;
 	}
 	if($('#appList').css('content') == 'normal' ||
-	  $('#appList').css('content') == undefined) {
+	  $('#appList').css('content') == undefined ||
+     $('#appList').css('content') == 'on') {
 		contentHack.selectorName == 'ie8';
 		if ($('#appList').css('ie8') == undefined ||
 		$('#appList').css('ie8') == '') {
